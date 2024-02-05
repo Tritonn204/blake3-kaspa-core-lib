@@ -1,6 +1,6 @@
 {
-  "name": "@kaspa/core-lib",
-  "version": "1.6.5",
+  "name": "@caldera-network/kaspa-core-lib",
+  "version": "1.6.6",
   "main": "index.js",
   "authors": [
     {
@@ -10,8 +10,15 @@
     {
       "name": "ASPECTRON Inc",
       "email": "info@aspectron.com"
+    },
+    {
+      "name": "Caldera Network",
+      "email": ""
     }
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "browser": {
     "request": "browser-request"
   },
