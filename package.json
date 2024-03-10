@@ -1,6 +1,6 @@
 {
   "name": "@caldera-network/kaspa-core-lib",
-  "version": "1.6.9",
+  "version": "1.6.10",
   "main": "index.js",
   "authors": [
     {
