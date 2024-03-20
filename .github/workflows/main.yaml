@@ -1,7 +1,7 @@
 name: Build on Main
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 concurrency:
   group: ${{ github.repository }}-${{ github.event.ref }}
@@ -17,7 +17,7 @@ jobs:
           node-version: '16.x'
           scope: '@caldera-network'
           registry-url: 'https://registry.npmjs.org'
-      - run: npm ci
+      - run: npm i
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
